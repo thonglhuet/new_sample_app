@@ -72,6 +72,9 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+      temp: " | "
   applicationcontroller:
     bar:
       application: "Applicationcontroller#bar"
