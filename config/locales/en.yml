@@ -83,6 +83,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      setting: "Settings"
+      user: "Users"
+      account: "Account"
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
       temp: " | "
@@ -93,3 +98,10 @@ en:
     baz:
       application: "Applicationcontroller#baz"
       findme: "Find me in app/views/applicationcontroller/baz.html.erb"
+  sessions:
+    new:
+      login: "Log in"
+      sign_up_now: "Sign up now!"
+      new_user: "New user? "
+    create:
+      invalid: "Invalid email/password combination"
