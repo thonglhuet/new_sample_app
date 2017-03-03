@@ -5,3 +5,8 @@ validates:
     max_length: 255
   password:
     min_length: 6
+gravatar:
+  size: 80
+  size_for_user: 50
+index:
+  per_page: 10

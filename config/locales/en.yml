@@ -66,6 +66,24 @@ en:
       password: "Password"
     create:
       welcome: "Welcome to the Sample App"
+    edit:
+      change: "change"
+      update_profile: "Update your profile"
+      edit_user: "Edit user"
+      save_change: "Save changes"
+      confirm: "Confirmation"
+    index:
+      all_user: "All users"
+    destroy:
+      success: "User deleted"
+    user:
+      confirm: "You sure?"
+      delete: "delete"
+    update:
+      notice_update: "Profile updated"
+    destroy:
+      notice_delete: "User deleted"
+    please_login: "Please log in."
   shared:
     error_messages:
       error: "error"
