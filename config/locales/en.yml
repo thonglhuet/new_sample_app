@@ -20,6 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  account_activations:
+    edit:
+      edit_success: "Account activated!"
+      invalid_link: "Invalid activation link"
+    active: "Activate"
   static_pages:
     about:
       about: "About"
@@ -66,6 +71,7 @@ en:
       password: "Password"
     create:
       welcome: "Welcome to the Sample App"
+      please_check: "Please check your email to activate your account."
     edit:
       change: "change"
       update_profile: "Update your profile"
@@ -84,6 +90,18 @@ en:
     destroy:
       notice_delete: "User deleted"
     please_login: "Please log in."
+  user_mailer:
+    account_activation:
+      account_activation: "Account activation"
+      sample_app: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
+    password_reset:
+      hi: "Hi"
+      to: "to@example.org"
+      reset_pass: "User#password_reset"
+      find_me: ", find me in app/views/user_mailer/password_reset.html.erb"
   shared:
     error_messages:
       error: "error"
@@ -124,3 +142,5 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      account_not_activated: "Account not activated. "
+      check_email: "Check your email for the activation link."
