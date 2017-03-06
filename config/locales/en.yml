@@ -102,6 +102,12 @@ en:
       to: "to@example.org"
       reset_pass: "User#password_reset"
       find_me: ", find me in app/views/user_mailer/password_reset.html.erb"
+      pass_word_reset: "Password reset"
+      reset_pass_word: "Reset password"
+      to_reset_pass: "To reset your password click the link below:"
+      this_link_expire: "This link will expire in two hours."
+      if_you_dont_use: "If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is."
   shared:
     error_messages:
       error: "error"
@@ -140,7 +146,24 @@ en:
       sign_up_now: "Sign up now!"
       new_user: "New user? "
       remember_me: "Remember me on this computer"
+      forgot_pass: "(forgot password)"
     create:
       invalid: "Invalid email/password combination"
       account_not_activated: "Account not activated. "
       check_email: "Check your email for the activation link."
+  password_resets:
+    new:
+      forgot_pass_word: "Forgot password"
+      submit: "Submit"
+    create:
+      email_sent_notice: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      reset_pass_word: "Reset password"
+      confirm: "Confirmation"
+      update_pass: "Update password"
+    update:
+      cant_be_empty: "can't be empty"
+      pass_word_reset_success_notice: "Password has been reset."
+    check_expiration:
+      expire_notice: "Password reset has expired."
