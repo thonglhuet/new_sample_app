@@ -5,8 +5,15 @@ validates:
     max_length: 255
   password:
     min_length: 6
+  micropost_content:
+    max_length: 140
+  micropost_error: "should be less than 5MB"
+  picture_size:
+    size: 5
 gravatar:
   size: 80
   size_for_user: 50
 index:
   per_page: 10
+picture_upload:
+  size_limit: 400
