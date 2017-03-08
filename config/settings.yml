@@ -13,6 +13,7 @@ validates:
 gravatar:
   size: 80
   size_for_user: 50
+  size_for_show_user: 30
 index:
   per_page: 10
 picture_upload:
